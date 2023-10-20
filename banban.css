@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header .logo{
+	text-align: center;
+	margin: 10px 0;
+}
+.header .navbar .nav-link:hover{
+	color: #ED6D00;
+}
+.header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.header .navbar .icon{
+	margin: 8px 15px;	
+	cursor: pointer;
+	color: #9c9c9c;
+}
+.header .navbar .icon:hover{					
+	color: #ED6D00;
+}
+.header .search_form{
+	position: absolute;
+	top: 170px;
+	left: 0;
+	right: 0;
+	height: 55px;
+	background: #fff;
+	align-items: center;
+	border-bottom: 0.1rem solid #6C757D;
+	z-index: 999;
+}
+.header .search_form input{
+	width: 96%;
+	font-size: 18px;
+	padding: 15px 0 10px 10px;
+	color: rgba(34,34,34, 1.0);
+	background: #fff;
+	text-transform: none;
+	border: none;
+	outline:medium;
+}
+.header .search_form label{
+	font-size: 26px;
+	margin: 0 7px;
+	color: rgba(34,34,34, 1);
+}
+.header .search_form label:hover{
+	color: #ff0000;
+}
+
+
+.about{
+	position: relative;
+}
+.about img{
+	background-size: contain;
+	opacity: 0.8;
+	margin-left: 40px;
+}
+.about ul{
+	top: 0;
+	left: 0;
+	margin: 13.5% 0 0 31.5%;
+	width: 600px;
+	position: absolute;
+	font-size: 30px;
+}
+.about ul li{
+	list-style:none;
+	text-indent : +2em ;
+}
+
+
+.tittle{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.tittle .line{
+	width: 440px;
+	height: 5px;
+    border-top: 1px solid #000;
+    display: inline-block;
+}
+.tittle .linetext{
+	font-size: 48px;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+.product .content{
+	margin-top: 40px;
+}
+.product .card:hover img{
+	-webkit-transform: scale(1.1);
+			transform: scale(1.3);
+	z-index: 999;
+}
+
+
+footer{
+	margin-top: 100px;
+	padding: 10px 0;
+	background-color: #808080;
+	display: grid;
+	grid-template-columns: 300px 1fr;
+}
+footer img{
+	padding: 20px 50px 0;
+}
+footer .text_box{
+	font-size: 20px;	
+	text-align: left;
+	padding-left: 150px;
+}
+footer .text_box h1{
+	color: #ED6D00;
+}
